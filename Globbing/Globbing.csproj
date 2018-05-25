@@ -5,10 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="EmbeddedResource.txt" />
+    <None Remove="EmbeddedResource.txt" />    
+    <EmbeddedResource Include="EmbeddedResource.txt" />
+
     <None Update="run.bat">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <EmbeddedResource Include="EmbeddedResource.txt" />
   </ItemGroup>
 </Project>
