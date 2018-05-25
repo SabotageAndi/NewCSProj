@@ -9,6 +9,7 @@
     <Summary>the coolest NuGet package of the world</Summary>
     <Title>io.willich.nugetpackage</Title>
     <Description>Test package for Talk</Description>
+    <SynchReleaseVersion>false</SynchReleaseVersion>
   </PropertyGroup>
 
   <ItemGroup>
